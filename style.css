@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(132, 241, 148);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+ .contenedorprincipal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+
+ }
+ .contenedor1 {
+    width: 300px;        
+    height: 300px;         
+    background-color: rgb(243, 243, 243); 
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    transition: background-color 0.3s, transform 0.3s; 
+    border: dotted 0.1em black;
+    flex-direction: column;
+
+}
+
+
+.contenedor1 h1 {
+    color: rgb(82, 128, 253);
+}
+
+
+.contenedor1:hover {
+    background-color: rgb(80, 88, 227); 
+    transform: scale(1.05); 
+}
+
+.contenedor1:hover h1 {
+    color: rgb(255, 255, 255); 
+}
+    
+ 
+.contenedorsecundario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    padding-top: 6%;
+    padding-bottom: 5%;
+}
+
+.minidiv{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(208, 245, 45);
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s, transform 0.3s;
+    border: solid 0.01em rgb(255, 255, 255);
+    border-radius: 10px;
+    
+}
+.minidiv:hover {
+    background-color: rgb(255, 255, 255); 
+    transform: scale(1.05); 
+}
+
+.validar{
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(48, 2, 255);
+    color: #ffffff;
+}
+.validar:hover{
+    background-color: rgb(0, 0, 0);
+    transform: scale(1.05);
+}

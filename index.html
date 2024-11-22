@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrastra y Suelta: Categoriza las Palabras</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Arrastra las palabras a sus categorías</h1>
+
+    <div class="contenedorprincipal">
+        <div class="contenedor1" id="contenedor1">
+            <h1>Frutas</h1>
+        </div>
+
+        <div class="contenedor1" id="contenedor2">
+            <h1>Animales</h1>
+        </div>
+
+        <div class="contenedor1" id="contenedor3">
+            <h1>Colores</h1>
+        </div>
+    </div>
+
+    <div class="contenedorsecundario">
+        <div class="minidiv" draggable="true" id="perro" data-category="Animales">Perro</div>
+        <div class="minidiv" draggable="true" id="platano" data-category="Frutas">Platano</div>
+        <div class="minidiv" draggable="true" id="rojo" data-category="Colores">Rojo</div>
+        <div class="minidiv" draggable="true" id="gato" data-category="Animales">Gato</div>
+        <div class="minidiv" draggable="true" id="manzana" data-category="Frutas">Manzana</div>
+        <div class="minidiv" draggable="true" id="azul" data-category="Colores">Azul</div>
+    </div>
+
+    <button class="validar" onclick="validarRespuestas()">Validar</button>
+
+    <div id="mensaje"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
